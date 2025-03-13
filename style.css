@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+body{
+    background-color: lightpink;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+    text-align: center;
+}
+
+nav h1{
+    font-size: 40px;
+}
+
+nav p{
+    width: 70%;
+    margin-top: 10px;
+}
+
+nav p span{
+    width: 50%;
+}
+
+
+.coisas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.coisas p{
+    margin-top: 40px;
+}
+
+.coisas img{
+    margin-top: 50px;
+    width: 400px;
+    height: 300px;
+}
+
+.hidden-message {
+    background-color: lightpink;
+    color: transparent;
+    padding: 10px;
+    border-radius: 8px;
+    width: 200px;
+    margin: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.hidden-message:hover {
+    color: black;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.left {
+    left: 10%;
+    top: 150px;
+}
+
+.center {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 150px;
+}
+
+.right {
+    right: 10%;
+    top: 150px;
+}
